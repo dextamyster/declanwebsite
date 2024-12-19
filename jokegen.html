@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Joke Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            display: inline-block;
+            text-align: left;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .links {
+            margin-top: 30px;
+        }
+        .links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .links a:hover {
+            color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the HTML Joke Generator!</h1>
+    <div class="container">
+        <p id="joke">Click below to hear a joke!</p>
+        <button onclick="generateJoke()">Tell me a joke!</button>
+    </div>
+
+    <div class="links">
+        <a href="../Videos/index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="aboutme.html">About Me</a>
+    </div>
+
+    <script>
+        const jokes = [
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "Why don't programmers like nature? It has too many bugs.",
+            "Why did the JavaScript developer go broke? Because he didn't know how to 'null' his expenses!",
+            "What do you get when you cross a snowman and a vampire? Frostbite!"
+        ];
+
+        function generateJoke() {
+            const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+            document.getElementById('joke').innerText = randomJoke;
+        }
+    </script>
+
+</body>
+</html>
