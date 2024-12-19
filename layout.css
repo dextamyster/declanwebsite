@@ -1,0 +1,67 @@
+
+.common {
+    /* background-color: light rgb(255, 255, 255); */
+    border: 1px solid white;
+    position: absolute;
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px ;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+
+}  
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 95px;
+    bottom: 45px; 
+    z-index: 1 ;
+    padding-left: 3px;
+    padding-top: 40px;
+}   
+.mainbody{
+    top: 114px;
+    right: 114px;
+    width: 1193px;
+    bottom: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 45px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px ;
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    color: #999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
+
+.profilepic {
+z-index: 1;
+}

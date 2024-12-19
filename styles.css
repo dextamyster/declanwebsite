@@ -1,0 +1,49 @@
+/*Declan Whitmarsh
+8/27/24
+Section 001   */
+body {font-family: Helvetica, sans-serif;
+font-size: 15px;
+background-color: gray;
+color: rgb(0, 0, 0)
+}
+
+li {font-size: 14px;
+    text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: normal;
+font-style: italic;}
+
+p {font-size: 15px;
+color: rgb(0, 0, 0)}
+
+.b {font-weight: bold;
+}
+
+.aboutme {
+color: black;
+font-size: 20px;
+}
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal; 
+}
+.justify {text-align: justify;}
+
+.bg {background-image: url("../Images/homebackground.jpeg");}
+
+.ibg {
+    background-color: beige;
+}
+/* For some reason the above .ibg will not go onto the index and im not sure why ASK TA */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+}
+/* } We usually would be more descriptive here but it was for demonstration */
+.box2{
+padding: 5px;
+}
+
+/* I'm missing a background on the index, im missing how to figure out the hover tool and visited tool -
+ both made the whole page change instead - i must've missed something in an earlier video. ASK TA  */
